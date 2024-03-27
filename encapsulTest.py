@@ -26,7 +26,6 @@ class Person:
 
     @property
     def calcule_age_anymode(self):
-
         mode = input("which mode do you want calculate your age: ").lower()
 
         if mode == "days" or mode == "day":
@@ -57,10 +56,10 @@ class Employee(Person):
         return self.salary * 12
 
 
-medo = Person("ali", 21, "reading", "male")
+medo  = Person("ali", 21, "reading", "male")
 medo1 = Person("ali", 21, "reading", "male")
 medo2 = Person("ali", 21, "reading", "male")
-emp1 = Employee("mohamed", 21, "swimming", "male", "Developer", 8000)
+emp1  = Employee("mohamed", 21, "swimming", "male", "Developer", 8000)
 
 print(emp1.show_info())
 print(medo.show_info())
@@ -74,3 +73,4 @@ print(medo.__str__())
 Person.count_users()
 medo._Person__age = 33
 print(medo.get_age())
+

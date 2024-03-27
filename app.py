@@ -19,6 +19,8 @@ class Students:
             raise ValueError("not allowed")
 
 
+
+
 print(Students.cnt)
 student_1 = Students("maj", "Mohamed", 21, "male")
 student_2 = Students("khafifi", "Aya", 17, "female")
